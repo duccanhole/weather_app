@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div id="head">
+        <input type="text" placeholder="enter city name " id="cityname" onfocus="this.value=''">
+        <button onclick="getApi()" class="btn">Get weather</button>
+    </div>
+    <hr>
+    <div id="show">
+        <h3 id="name">--------------</h3>
+        <li id="con">---</li>
+        <li id="temp">---</li>
+        <li id="hum">---</li>
+        <li id="wind">---</li>
+        <i>Have a good day !</i>
+        <br>
+        <br>
+    </div>
+    <script src="get.js"></script>
+</body>
+
+</html>

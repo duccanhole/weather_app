@@ -1,0 +1,48 @@
+*{
+    font-family: "Audiowide", sans-serif;
+}
+body{
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/04/montana-wallpaper-1920x1080-8.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#head{
+    text-align: center;
+    background-color:royalblue;
+    padding: 3%;
+    opacity: 0.8;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-image: linear-gradient(to bottom right, rgb(0, 225, 255), rgb(255, 0, 255));
+}
+.btn:hover{
+    border: medium double pink;
+    background-image: linear-gradient(to bottom right, rgb(0, 68, 255), rgb(255, 0, 149));
+}
+.btn:active{
+    transform: translateY(-10px);
+}
+#cityname{
+    height: 30px;
+    width: 25%;
+    background-color: whitesmoke;
+}
+#show{
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+    width: 30%;
+    padding-left: 5%;
+    margin: auto;
+    margin-top: 5%;
+    opacity: 0.7;
+}
+@media only screen and (max-width: 600px) {
+    #show{
+        width: 85%;
+        margin-top: 30%;
+    }
+  }
