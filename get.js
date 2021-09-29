@@ -7,7 +7,7 @@ function getData(){
     let cityName = document.getElementById('cityname').value;
     let url = 'https://api.openweathermap.org/data/2.5/weather?q='+cityName+'&appid=8dd3399efb163e5a7a5f94b9359f035c';
     return url;
-}
+} 
 function getApi(){
     fetch(getData())
     .then(res=>res.json())
